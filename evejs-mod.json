@@ -1,0 +1,47 @@
+{
+  "author": {
+    "id": "au-mwhvr4ds3ji8",
+    "keyId": "1e74f0de8f5f",
+    "name": "Mimataer"
+  },
+  "category": "玩法",
+  "changelog": "",
+  "conflicts": [],
+  "delisted": false,
+  "description": "按 EVE University wiki 还原全部 DED 远征：异常触发、站点生成、房间刷怪、Boss 掉落与星际代理处显示，开袋即用。",
+  "displayName": "远征",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.0.0/evejs-yuan-zheng-1.0.0.zip"
+    }
+  ],
+  "evejsVersions": [
+    "261115.x"
+  ],
+  "featured": false,
+  "highlights": [
+    "保留全部 loader 加载要点（身份校验 / require.cache 等待 / unref）",
+    "业务钩子集中在 loader.js 的 start() 里，改这一处即可",
+    "改服务端源码用 SOURCE_PATCH（走注入总线），不自己 hook _compile"
+  ],
+  "history": [],
+  "id": "evejs-yuan-zheng",
+  "publishedAt": "2026-11-19",
+  "readme": [
+    "按 EVE University wiki 的 DED rated complexes 表，把 1/10–8/10、10/10（含无人机）全部站点做成与服务端一致的远征规则。"
+  ],
+  "repo": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng",
+  "requiresRestart": true,
+  "sha256": "e1a34a6b15eb0eff6b3ccf031dc82a4feff84545b020fcdbcd7c90ba21650c27",
+  "sizeBytes": 15883,
+  "tags": [
+    "远征",
+    "异常",
+    "DED",
+    "掉落",
+    "刷怪"
+  ],
+  "version": "1.0.0"
+}
