@@ -22,9 +22,14 @@
   ],
   "featured": false,
   "highlights": [
-    "保留全部 loader 加载要点（身份校验 / require.cache 等待 / unref）",
-    "业务钩子集中在 loader.js 的 start() 里，改这一处即可",
-    "改服务端源码用 SOURCE_PATCH（走注入总线），不自己 hook _compile"
+    "按 wiki 还原 33 个 DED 远征站点的房间与刷怪",
+    "异常最后一波概率刷新指挥官NPC",
+    "异常触发远征，带概率/冷却/跳跃/安等限制",
+    "监察官按船体尺寸掉落 A/C/X 型死亡空间模块",
+    "建筑 Boss 摧毁后完成远征并生成货柜集装箱",
+    "代理处显示远征难度、敌方与剩余时间",
+    "加速轨道中文化，支持 wiki 可选分支",
+    "掉落数据内置，无需额外掉落 mod"
   ],
   "history": [],
   "id": "evejs-yuan-zheng",
@@ -34,14 +39,11 @@
   ],
   "repo": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng",
   "requiresRestart": true,
-  "sha256": "e1a34a6b15eb0eff6b3ccf031dc82a4feff84545b020fcdbcd7c90ba21650c27",
-  "sizeBytes": 15883,
+  "sha256": "9e9368dd0ef101724aeaa22121424977283ac3522eb273f2a34207f4060737ae",
+  "sizeBytes": 255795,
   "tags": [
     "远征",
-    "异常",
-    "DED",
-    "掉落",
-    "刷怪"
+    "DED"
   ],
   "version": "1.0.0"
 }
