@@ -5,7 +5,7 @@
     "name": "Mimataer"
   },
   "category": "玩法",
-  "changelog": "新增天使/天蛇远征6/10第二步的触发",
+  "changelog": "修复NPC掉落",
   "conflicts": [],
   "delisted": false,
   "description": "按 EVE University wiki 还原全部 DED 远征：异常触发、站点生成、房间刷怪、Boss 掉落与星际代理处显示，开袋即用。",
@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.0.2/evejs-yuan-zheng-1.0.2.zip"
+      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.0.3/evejs-yuan-zheng-1.0.3.zip"
     }
   ],
   "evejsVersions": [
@@ -39,11 +39,11 @@
   ],
   "repo": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng",
   "requiresRestart": true,
-  "sha256": "32f1fbf21d1208f0f210df0a080a82fc1955490c3105f284efc5ef4d6f37bb00",
-  "sizeBytes": 257827,
+  "sha256": "33ceb70a66fa7032d0f04466ccedad4ba3abd2a5b71cf585fab550a8ee13072c",
+  "sizeBytes": 258060,
   "tags": [
     "远征",
     "DED"
   ],
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
