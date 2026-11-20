@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.0.0/evejs-yuan-zheng-1.0.0.zip"
+      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.0.1/evejs-yuan-zheng-1.0.1.zip"
     }
   ],
   "evejsVersions": [
@@ -33,17 +33,17 @@
   ],
   "history": [],
   "id": "evejs-yuan-zheng",
-  "publishedAt": "2026-11-19",
+  "publishedAt": "2026-11-20",
   "readme": [
     "按 EVE University wiki 的 DED rated complexes 表，把 1/10–8/10、10/10（含无人机）全部站点做成与服务端一致的远征规则。"
   ],
   "repo": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng",
   "requiresRestart": true,
-  "sha256": "c7dbff725da8873adb4502d284b7ac8a834f3d7392cc68a3baf96dc0fca37959",
-  "sizeBytes": 255802,
+  "sha256": "1d9171296eef574d01b05218111dfa6486db8310e7b5afdc72a13d6eeddd2aca",
+  "sizeBytes": 256635,
   "tags": [
     "远征",
     "DED"
   ],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
