@@ -5,7 +5,7 @@
     "name": "Mimataer"
   },
   "category": "玩法",
-  "changelog": "",
+  "changelog": "新增天使/天蛇远征6/10第二步的触发",
   "conflicts": [],
   "delisted": false,
   "description": "按 EVE University wiki 还原全部 DED 远征：异常触发、站点生成、房间刷怪、Boss 掉落与星际代理处显示，开袋即用。",
@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.0.1/evejs-yuan-zheng-1.0.1.zip"
+      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.0.2/evejs-yuan-zheng-1.0.2.zip"
     }
   ],
   "evejsVersions": [
@@ -22,28 +22,28 @@
   ],
   "featured": false,
   "highlights": [
-    "按 wiki 还原 33 个 DED 远征站点的房间与刷怪",
-    "异常最后一波概率刷新指挥官NPC",
-    "异常触发远征，带概率/冷却/跳跃/安等限制",
-    "监察官按船体尺寸掉落 A/C/X 型死亡空间模块",
-    "建筑 Boss 摧毁后完成远征并生成货柜集装箱",
-    "代理处显示远征难度、敌方与剩余时间",
-    "加速轨道中文化，支持 wiki 可选分支",
-    "掉落数据内置，无需额外掉落 mod"
+    "三十三个站点按维基还原",
+    "异常触发远征带概率冷却",
+    "监察官按船体掉对应模块",
+    "建筑首领被毁后生成货柜",
+    "远征日志显示难度与敌方",
+    "天使天蛇六分之十含二阶段"
   ],
   "history": [],
   "id": "evejs-yuan-zheng",
   "publishedAt": "2026-11-20",
   "readme": [
-    "按 EVE University wiki 的 DED rated complexes 表，把 1/10–8/10、10/10（含无人机）全部站点做成与服务端一致的远征规则。"
+    "覆盖一至十级全部死亡空间远征，房间结构、敌人型号与数量、首领与掉落均按维基整理；普通敌人只掉普通物品，监察官按船体尺寸掉对应死亡空间模块。",
+    "天使与天蛇的六分之十在击败第一部分首领后必定生成第二部分，第二部分首领掉落十九级监察官财产与对应势力巡洋模块。",
+    "- 聊天框输入 `/escalate client-dungeon:2477` 可在当前星系生成对应站点\n- 生成后打开远征日志，跃迁到站点并沿加速轨道推进\n- 击败最后一间首领即可完成，建筑首领被毁后原地出现货柜"
   ],
   "repo": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng",
   "requiresRestart": true,
-  "sha256": "1d9171296eef574d01b05218111dfa6486db8310e7b5afdc72a13d6eeddd2aca",
-  "sizeBytes": 256635,
+  "sha256": "32f1fbf21d1208f0f210df0a080a82fc1955490c3105f284efc5ef4d6f37bb00",
+  "sizeBytes": 257827,
   "tags": [
     "远征",
     "DED"
   ],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
