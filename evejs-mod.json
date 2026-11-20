@@ -5,45 +5,37 @@
     "name": "Mimataer"
   },
   "category": "玩法",
-  "changelog": "修复NPC掉落",
+  "changelog": "",
   "conflicts": [],
   "delisted": false,
-  "description": "按 EVE University wiki 还原全部 DED 远征：异常触发、站点生成、房间刷怪、Boss 掉落与星际代理处显示，开袋即用。",
+  "description": "按 EVE University wiki 还原全部 DED 远征：异常触发、站点生成、房间刷怪、Boss 掉落与星际代理处显示。本包只含远征内容。",
   "displayName": "远征",
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.0.3/evejs-yuan-zheng-1.0.3.zip"
+      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.0.4/evejs-yuan-zheng-1.0.4.zip"
     }
   ],
   "evejsVersions": [
     "261115.x"
   ],
   "featured": false,
-  "highlights": [
-    "三十三个站点按维基还原",
-    "异常触发远征带概率冷却",
-    "监察官按船体掉对应模块",
-    "建筑首领被毁后生成货柜",
-    "远征日志显示难度与敌方",
-    "天使天蛇六分之十含二阶段"
-  ],
+  "highlights": [],
   "history": [],
   "id": "evejs-yuan-zheng",
   "publishedAt": "2026-11-20",
   "readme": [
-    "覆盖一至十级全部死亡空间远征，房间结构、敌人型号与数量、首领与掉落均按维基整理；普通敌人只掉普通物品，监察官按船体尺寸掉对应死亡空间模块。",
-    "天使与天蛇的六分之十在击败第一部分首领后必定生成第二部分，第二部分首领掉落十九级监察官财产与对应势力巡洋模块。",
-    "- 聊天框输入 `/escalate client-dungeon:2477` 可在当前星系生成对应站点\n- 生成后打开远征日志，跃迁到站点并沿加速轨道推进\n- 击败最后一间首领即可完成，建筑首领被毁后原地出现货柜"
+    "- 聊天框输入 `/escalate client-dungeon:2477` 可在当前星系生成对应站点\n- 生成后打开远征日志，跃迁到站点并沿加速轨道推进\n- 击败最后一间首领即可完成；建筑首领被毁后原地出现货柜",
+    "其它命令：`/dungeon`（当前星系活动副本状态）、`/sitehere`、`/sitegates`、`/purgeexpeditions`（清理本角色远征）。"
   ],
   "repo": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng",
   "requiresRestart": true,
-  "sha256": "33ceb70a66fa7032d0f04466ccedad4ba3abd2a5b71cf585fab550a8ee13072c",
-  "sizeBytes": 258060,
+  "sha256": "78a62de742244b37a722d075c0cde5115f2545f70bc74243d510c0ce1c244553",
+  "sizeBytes": 80230,
   "tags": [
     "远征",
     "DED"
   ],
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
