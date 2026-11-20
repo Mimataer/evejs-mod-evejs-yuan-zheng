@@ -5,7 +5,7 @@
     "name": "Mimataer"
   },
   "category": "玩法",
-  "changelog": "",
+  "changelog": "修复了一个BUG，该BUG导致服务端每 12 秒新起一个 worker 线程，每个线程都会把整套 mod 重新加载一遍，致使服务端占用暴涨",
   "conflicts": [],
   "delisted": false,
   "description": "按 EVE University wiki 还原全部 DED 远征：异常触发、站点生成、房间刷怪、Boss 掉落与星际代理处显示。本包只含远征内容。",
@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.0.4/evejs-yuan-zheng-1.0.4.zip"
+      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.0.5/evejs-yuan-zheng-1.0.5.zip"
     }
   ],
   "evejsVersions": [
@@ -31,11 +31,11 @@
   ],
   "repo": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng",
   "requiresRestart": true,
-  "sha256": "78a62de742244b37a722d075c0cde5115f2545f70bc74243d510c0ce1c244553",
-  "sizeBytes": 80230,
+  "sha256": "84852a1367c6d60c097b96268598406269fc689bc5a5d7d4c3c66987e966884a",
+  "sizeBytes": 80519,
   "tags": [
     "远征",
     "DED"
   ],
-  "version": "1.0.4"
+  "version": "1.0.5"
 }
