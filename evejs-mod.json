@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.1.20/evejs-yuan-zheng-1.1.20.zip"
+      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.1.21/evejs-yuan-zheng-1.1.21.zip"
     }
   ],
   "evejsVersions": [
@@ -31,11 +31,11 @@
   ],
   "repo": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng",
   "requiresRestart": true,
-  "sha256": "ce35ad3825ca9bb0b3eca0cf55635bfe76df8cefc97d2dca47f747255859ce56",
-  "sizeBytes": 96555,
+  "sha256": "fe7e6042c4f776e680bb4aa4302a8e526c5c1816301c9da9151fdadd286c6073",
+  "sizeBytes": 97039,
   "tags": [
     "远征",
     "DED"
   ],
-  "version": "1.1.20"
+  "version": "1.1.21"
 }
