@@ -5,7 +5,7 @@
     "name": "Mimataer"
   },
   "category": "玩法",
-  "changelog": "新增异常末波指挥官NPC覆盖全部 198 个战斗异常（30%触发）",
+  "changelog": "",
   "conflicts": [],
   "delisted": false,
   "description": "按 EVE University wiki 还原全部 DED 远征：异常触发、站点生成、房间刷怪、Boss 掉落与星际代理处显示。本包只含远征内容。",
@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.1.19/evejs-yuan-zheng-1.1.19.zip"
+      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.1.20/evejs-yuan-zheng-1.1.20.zip"
     }
   ],
   "evejsVersions": [
@@ -27,15 +27,15 @@
   "publishedAt": "2026-11-21",
   "readme": [
     "- 聊天框输入 `/escalate client-dungeon:2477` 可在当前星系生成对应站点\n- 生成后打开远征日志，跃迁到站点并沿加速轨道推进\n- 击败最后一间首领即可完成；建筑首领被毁后原地出现货柜",
-    "其它命令：`/dungeon`（当前星系活动副本状态）、`/sitehere`、`/sitegates`、`/purgeexpeditions`（清理本角色远征）。"
+    "其它命令：`/dungeon`（当前星系活动副本状态）、`/dungeonpurge [all|id...]`（清掉卡住的实例，任务实例跳过）、`/dungeonrefresh [all]`（清完并立刻重刷）、`/sitehere`、`/sitegates`、`/purgeexpeditions`（清理本角色远征）。"
   ],
   "repo": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng",
   "requiresRestart": true,
-  "sha256": "265fa458ffef845c89f6c10b71447e84cea4f8c58ca767ca8bc924612efcc9c2",
-  "sizeBytes": 88159,
+  "sha256": "ce35ad3825ca9bb0b3eca0cf55635bfe76df8cefc97d2dca47f747255859ce56",
+  "sizeBytes": 96555,
   "tags": [
     "远征",
     "DED"
   ],
-  "version": "1.1.19"
+  "version": "1.1.20"
 }
