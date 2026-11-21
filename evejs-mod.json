@@ -5,7 +5,7 @@
     "name": "Mimataer"
   },
   "category": "玩法",
-  "changelog": "修复了文本异常，新增掉落补丁",
+  "changelog": "新增异常末波指挥官NPC覆盖全部 198 个战斗异常（30%触发）",
   "conflicts": [],
   "delisted": false,
   "description": "按 EVE University wiki 还原全部 DED 远征：异常触发、站点生成、房间刷怪、Boss 掉落与星际代理处显示。本包只含远征内容。",
@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.1.15/evejs-yuan-zheng-1.1.15.zip"
+      "url": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng/releases/download/v1.1.19/evejs-yuan-zheng-1.1.19.zip"
     }
   ],
   "evejsVersions": [
@@ -31,11 +31,11 @@
   ],
   "repo": "https://github.com/Mimataer/evejs-mod-evejs-yuan-zheng",
   "requiresRestart": true,
-  "sha256": "6242d668265be98fc23fe161ba90ba7e7c95566826f26dd377988644a32d16a2",
-  "sizeBytes": 84067,
+  "sha256": "265fa458ffef845c89f6c10b71447e84cea4f8c58ca767ca8bc924612efcc9c2",
+  "sizeBytes": 88159,
   "tags": [
     "远征",
     "DED"
   ],
-  "version": "1.1.15"
+  "version": "1.1.19"
 }
